@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Python Virtual Environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# Large Model Files
+*.gguf
+*.bin
+blobs/
+manifests/
+
+# Datasets and Exports
+*.jsonl
+AI-Accountant-Full-Code.txt
+export_code.py
+
+# Mac OS
+.DS_Store
+
+# IDE and Logs
+.vscode/
+.idea/
+*.log
