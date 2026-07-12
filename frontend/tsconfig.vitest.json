@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "types": ["node", "vite/client"]
+  },
+  "include": ["vitest.config.ts", "vitest.setup.ts", "**/*.test.ts", "**/*.test.tsx"]
+}
